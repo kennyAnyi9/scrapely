@@ -2,8 +2,8 @@ services:
   - type: web
     name: scrapely
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: ./build.sh
     startCommand: gunicorn server:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.0
+        value: 3.9.12
