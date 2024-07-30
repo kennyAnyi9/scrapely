@@ -1,7 +1,7 @@
 --no-binary :all:
 --only-binary=numpy,scipy,pandas,lxml
 
-lxml==4.6.3
+
 numpy==2.0.1
 scipy==1.14.0
 pandas== 2.2.2
