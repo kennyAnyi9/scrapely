@@ -1,6 +1,6 @@
 --no-binary :all:
 --only-binary=numpy,scipy,pandas
-numpy==1.21.0
+numpy==2.0.1
 scipy==1.7.0
 pandas==1.3.0
 Flask==2.1.0
