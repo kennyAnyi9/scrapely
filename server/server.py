@@ -3,7 +3,7 @@ from flask_cors import CORS
 import subprocess
 
 app = Flask(__name__)
-CORS(app)  # This will enable CORS for all routes
+CORS(app, resources={r"/*": {"origins": "https://scrapely.vercel.app"}})
 
 @app.route('/start-scraping', methods=['GET'])
 def start_scraping():
